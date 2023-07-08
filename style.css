@@ -1,0 +1,753 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Great+Vibes&display=swap');
+*{
+    margin: 0;
+    padding: 0 0 0 0;
+    font-family: 'Comfortaa', 'cursive';
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.ram{
+    padding: 92px 0 0 0;
+}
+.flex{
+    display: flex;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    background-color: rgb(89, 39, 100);
+    color: white;
+}
+.riya{
+    padding: 15px 60px;
+    font-family: 'Great Vibes', 'cursive';
+    font-size: 25px;
+    cursor: pointer;
+}
+.nav-items{
+    margin-left: 650px;
+}
+.nav-items-list{
+    display: flex;
+}
+.nav-items-list li{
+    padding: 20px 25px;
+}
+.nav-links{
+    color: white;
+}
+.nav-links:visited{
+    color: white;
+}
+.nav-links:hover{
+    font-weight: bold;
+}
+.about{
+    padding: 20px 25px;
+    font-size: 16px;
+    display: flex;
+}
+.about-text{
+    width: 60%;
+    margin: 100px 30px;
+    background-color: rgb(245, 235, 245);
+    border-radius: 40px;
+}
+.about-head{
+    text-align: center;
+    color: rgb(89, 39, 100);
+    padding: 30px;
+}
+.about-para{
+    text-align: center;
+    padding: 20px;
+    line-height: 20px;
+}
+.social-media-icons{
+    padding: 15px;
+    display: flex;
+}
+.social-media-icons li{
+    padding: 20px 10px;
+}
+.icons:hover{
+    border-radius: 45px;
+    background-color: white;
+}
+.about-pic-div{
+    margin-top: 55px;
+    width: 70%;
+}
+.about-pic{
+    height: 400px;
+    width: 400px;
+    padding: 5px 80px 30px 190px;
+}
+.proficiency-head{
+    padding: 20px 60px;
+}
+.proficiency-body{
+    padding: 60px;
+    display: flex;
+}
+.proficiency-img-div{
+    width: 60%;
+    margin: 0px;
+}
+.proficiency-img{
+    height: 400px;
+    width: 400px;
+    padding: 0px 0px;
+}
+.proficiency-text{
+    padding: 20px 20px 20px 60px;
+    width: 60%;
+    margin: 10px 0px 10px 130px;
+}
+.proficiency-items-list{
+    margin-top: 50px;
+}
+.proficiency-items-list li{
+    padding-bottom: 20px;
+}
+.proficiency-items{
+    width: 30%;
+    font-size: 19px;
+}
+.proficiency-bar{
+    width: 75%;
+    background-color: rgb(233, 218, 233);
+    margin: 10px 0px 30px 100px;
+    border-radius: 30px;
+}
+.front-end, .back-end, .programming{
+    background-color: rgb(89, 39, 100);
+    padding: 10px;
+    border-radius: 30px;
+}
+.front-end{
+    width: 85%;
+}
+.back-end{
+    width: 75%;
+}
+.programming{
+    width: 80%;
+}
+.projects-div{
+    width: 100%;
+    margin-top: 80px;
+}
+.project{
+    padding: 20px 60px;
+    margin: 30px 0;
+}
+.project-list{
+    display: flex;
+}
+.project-list li{
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 25px;
+    margin: 20px 60px;
+    padding: 15px;
+    width: 70%;
+}
+.project-list li:hover{
+    border: 1px solid black;
+    border-radius: 0;
+}
+.project-para{
+    padding: 10px 0;
+}
+.project-link{
+    color: rgb(70, 2, 70);
+}
+.project-link:visited{
+    color: rgb(70, 2, 70);
+}
+.contact{
+    padding: 20px 60px;
+    margin-top: 90px;
+    display: flex;
+}
+.contact-head{
+    padding: 20px 0;
+}
+.contact-hashtags{
+    padding: 10px 0;
+    font-weight: bold;
+}
+.location-div{
+    display: flex;
+    margin-top: 10px;
+}
+.location{
+    height: 22px;
+    width: 22px;
+}
+.location-text{
+    margin: 5px 0;
+}
+.contact-social-media-icons{
+    display: flex;
+    padding: 15px 15px 15px 0;
+}
+.contact-social-media-icons li{
+    padding: 0 20px 0 0;
+}
+.contact-icons:hover{
+    border-radius: 35px;
+    background-color: rgb(236, 233, 233);
+}
+.contact-pic{
+    margin-left: 360px;
+}
+.contact-riya-pic{
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    border-radius: 100px;
+    border: 2px solid rgb(70, 2, 70);
+}
+@media only screen and (max-width: 1023px)
+{ 
+    .navbar{
+        width: 1023px;
+    }
+    .nav-items{
+        margin-left: 370px;
+    } 
+    .about-pic-div{
+        margin-top: 55px;
+        width: 50%;
+    }
+    .about-pic{
+        height: 380px;
+        width: 380px;
+        padding: 5px 80px 30px 70px;
+    }
+    .proficiency-img{
+        height: 360px;
+        width: 360px;
+    }
+    .proficiency-items-list{
+        margin-top: 35px;
+    }
+    .contact-pic{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 911px)        
+{
+    .navbar{
+        width: 911px;
+    }
+    .nav-items{
+        margin-left: 280px;
+    } 
+    .about{
+        font-size: 16px;
+    }
+    .about-text{
+        width: 65%;
+        margin: 90px 10px;
+    }
+    .about-head{
+        padding: 20px;
+    }
+    .about-para{
+        padding: 18px;
+        line-height: 18px;
+    }
+    .social-media-icons{
+        padding: 10px;
+    }
+    .social-media-icons li{
+        padding: 10px;
+    }
+    .about-pic-div{
+        margin-top: 55px;
+        width: 50%;
+    }
+    .about-pic{
+        height: 300px;
+        width: 300px;
+        padding: 5px 80px 30px 70px;
+    }
+    .proficiency-img{
+        height: 280px;
+        width: 280px;
+    }
+    .proficiency-text{
+        margin: 5px 0px 10px 130px;
+    }
+    .proficiency-items-list{
+        margin-top: 0px;
+    }
+    .proficiency-items-list li{
+        padding-bottom: 10px;
+    }
+    .proficiency-items{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 850px)        
+{
+    .navbar{
+        width: 850px;
+    }
+    .nav-items{
+        margin-left: 220px;
+    } 
+    .proficiency-items{
+        width: 50%;
+    }
+    .proficiency-text{
+        margin-left: 65px;
+    }
+    .projects-div{
+        margin-top: 30px;
+        width: 95%;
+    }
+    .project-list li{
+        margin: 20px 2px 20px 40px;
+        padding: 15px;
+    }
+}
+
+/* big phones to small tablets: from 600 to 767px;  */
+@media only screen and (max-width: 768px)        
+{
+    .navbar{
+        width: 768px;
+    }
+    .nav-items{
+        margin-left: 150px;
+    } 
+    .about-text{
+        width: 65%;
+        margin: 90px 0px;
+    }
+    .about-pic-div{
+        margin-top: 55px;
+        width: 50%;
+    }
+    .about-pic{
+        height: 290px;
+        width: 280px;
+        padding: 5px 80px 30px 60px;
+    }
+    .icons{
+        height: 40px;
+        width: 40px;
+    }
+    .social-media-icons{
+        padding: 5px;
+    }
+    .social-media-icons li{
+        padding: 7px;
+    }
+    .proficiency-img{
+        height: 260px;
+        width: 260px;
+    }
+    .proficiency-text{
+        margin: 0px 0px 10px 60px;
+    }
+    .proficiency-items-list li{
+        padding-bottom: 5px;
+    }
+    .proficiency-items{
+        width: 50%;
+    }
+    .projects-div{
+        margin-top: 30px;
+        width: 85%;
+    }
+    .project-list li{
+        margin: 20px 2px 20px 40px;
+        padding: 15px;
+    }
+    .project-head{
+        font-size: 18px;
+    }
+    .project-para{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 675px)
+{
+    .navbar{
+        width: 675px;
+    }
+    .nav-items{
+        margin-left: 30px;
+    }
+    .about-head{
+        font-size: 19px;
+    } 
+    .about-para{
+        font-size: 16px;
+    }
+    .about-pic{
+        height: 300px;
+        width: 250px;
+        padding: 5px 80px 30px 50px;
+    }
+    .proficiency-img{
+        height: 230px;
+        width: 230px;
+    }
+    .proficiency-text{
+        margin: 0px 0px 10px 10px;
+    }
+    .proficiency-items-list li{
+        padding-bottom: 0px;
+    }
+    .contact-pic{
+        margin-left: 130px;
+    }
+    .project-list li{
+        margin: 20px 0px 20px 120px;
+        padding: 15px;
+    }
+    .project-list{
+        display: block;
+    }
+    
+}
+    
+/* small phones to small tablets: from 481 to 600px;  */
+@media only screen and (max-width: 600px)
+{
+    .navbar{
+        width: 600px;
+        font-size: 17px;
+        }
+    .riya{
+        padding: 15px 30px;
+        font-size: 22px;
+    }
+    .nav-items{
+        margin-left: 110px;
+    }
+    .nav-items-list li{
+        padding: 20px 20px;
+    }
+    .about{
+        padding: 20px 25px;
+        font-size: 16px;
+        display: block;
+    }
+    .about-text{
+        width: 85%;
+        margin: 60px 40px;
+    }
+    .about-head{
+        padding: 25px;
+        font-size: 20px;
+    }
+    .about-para{
+        padding: 20px;
+        line-height: 18px;
+    }
+    .social-media-icons{
+        padding: 10px;
+    }
+    .social-media-icons li{
+        padding: 10px 15px;
+    }
+    .icons{
+        height: 40px;
+        width: 40px;
+    }
+    .about-pic-div{
+        margin-top: 55px;
+        width: 90%;
+        margin: 20px;
+    }
+    .about-pic{
+        height: 300px;
+        width: 300px;
+        padding: 5px 80px 30px 110px;
+    }
+    .proficiency-head{
+        padding: 15px 30px;
+        font-size: 21px;
+    }
+    .proficiency-body{
+        padding: 30px;
+    }
+    .proficiency-img-div{
+        margin-top: 10px;
+        width: 50%;
+    }
+    .proficiency-img{
+        height: 240px;
+        width: 240px;
+    }
+    .proficiency-text{
+        padding: 10px;
+        width: 55%;
+        margin: 40px 0px 10px 50px;
+    }
+    .proficiency-items-list{
+        margin-top: 0px;
+    }
+    .proficiency-items{
+        width: 50%;
+        font-size: 13px;
+    }
+    .proficiency-bar{
+        width: 95%;
+        height: 15px;
+        margin: 5px 0px 10px 0px;
+    }
+    .front-end, .back-end, .programming{
+        height: 15px;
+        padding: 0;
+    }
+    .front-end{
+        width: 75%;
+    }
+    .back-end{
+        width: 65%;
+    }
+    .programming{
+        width: 70%;
+    }
+    .projects-div{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .project{
+        padding: 10px 30px;
+        margin: 30px 0;
+        font-size: 21px;
+    }
+    .project-list li{
+        border-radius: 25px;
+        margin: 20px 75px;
+        width: 70%;
+        font-size: 14px;
+    }
+    .project-head{
+        font-size: 17px;
+    }
+    .project-para{
+        padding: 10px 0;
+    }
+    .contact{
+        padding: 10px 30px;
+        margin-top: 80px;
+        display: flex;
+    }
+    .contact-head{
+        font-size: 21px;
+    }
+    .contact-para{
+        font-size: 15px;
+    }
+    .contact-hashtags{
+        padding: 10px 0;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .location-div{
+        display: flex;
+        margin-top: 10px;
+    }
+    .location{
+        height: 17px;
+        width: 17px;
+    }
+    .location-text{
+        margin: 3px 0;
+        font-size: 14px;
+    }
+    .contact-social-media-icons{
+        display: flex;
+        padding: 15px 15px 15px 0;
+    }
+    .contact-social-media-icons li{
+        padding: 0 15px 0 0;
+    }
+    .contact-icons{
+        height: 40px;
+        width: 40px;
+    }
+    .contact-pic{
+        margin-left: 50px;
+    }
+    .contact-riya-pic{
+        height: 120px;
+        width: 120px;
+    }
+}
+@media only screen and (max-width: 570px)
+{
+    .navbar{
+        width: 570px;
+        font-size: 17px;
+        }
+    .nav-items{
+        margin-left: 90px;
+    }
+}
+@media only screen and (max-width: 550px)
+{
+    .navbar{
+        width: 550px;
+        font-size: 17px;
+        }
+    .nav-items{
+        margin-left: 70px;
+    }
+}
+/* small phones: from 0 to 480px;  */
+@media only screen and (max-width: 480px)
+{
+    .ram{
+        padding: 57px 0 0 0;
+    }
+    .navbar{
+        width: 480px;
+        font-size: 15px;
+        }
+    .riya{
+        font-size: 20px;
+    }
+    .nav-items{
+        margin-left: 85px;
+    }
+    .nav-items-list li{
+        padding: 20px 7px;
+    }
+    .about{
+        font-size: 13px;
+    }
+    .about-text{
+        width: 90%;
+        margin: 60px 20px;
+    }
+    .about-head{
+        font-size: 18px;
+    }
+    .about-para{
+        line-height: 17px;
+    }
+    .icons{
+        height: 35px;
+        width: 35px;
+    }
+    .about-pic{
+        height: 200px;
+        width: 200px;
+        padding: 5px 80px 30px 90px;
+    }
+    .proficiency-head{
+        font-size: 18px;
+    }
+    .proficiency-img{
+        height: 200px;
+        width: 200px;
+    }
+    .proficiency-text{
+        margin: 30px 0px 10px 50px;
+    }
+    .project-list li{
+        margin: 20px 60px;
+    }
+    .contact-icons{
+        height: 35px;
+        width: 35px;
+    }
+    .contact-pic{
+        margin-left: 60px;
+    }
+    .contact-riya-pic{
+        height: 100px;
+        width: 100px;
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 450px)
+{
+    .navbar{
+        width: 450px;
+    }
+    .nav-items{
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 400px)
+{
+    .navbar{
+        width: 400px;
+    }
+    .riya{
+        padding: 15px;
+    }
+    .nav-items{
+        margin-left: 40px;
+    }
+    .about{
+        padding: 15px;
+    }
+    .about-pic{
+        padding-left: 65px;
+    }
+    .proficiency-head{
+        padding: 15px;
+        font-size: 21px;
+    }
+    .proficiency-img-div{
+        width: 40%;
+    }
+    .proficiency-img{
+        height: 170px;
+        width: 170px;
+    }
+    .proficiency-text{
+        padding: 8px;
+    }
+    .proficiency-items{
+        font-size: 12px;
+    }
+    .proficiency-bar{
+       margin-bottom: 5px;
+    }
+    .projects-div{
+        margin-top: 30px;
+    }
+    .project{
+        padding: 10px 15px;
+    }
+    .project-list li{
+        margin: 20px 45px;
+    }
+    .project-img{
+        width: 260px;
+    }
+    .contact{
+        padding: 10px 15px;
+    }
+    .contact-pic{
+        margin-left: 40px;
+    }
+    .contact-riya-pic{
+        margin-top: 85px;
+    }
+}
+
+
+
